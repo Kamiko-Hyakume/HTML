@@ -1,12 +1,15 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #5f2c82, rgba(0, 0, 0, 0.696));
+    }
+
     section#login {
         width: 80vw;
     }
 
-    section#login > div#imagem {
-        background-image: url(../imagem/roxo.png);
+    section#login > div#imagem {    
         background-position: left;
         float: left;
         width: 35%;
@@ -20,6 +23,10 @@
 }
 
 @media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #5f2c82, rgba(0, 0, 0, 0.696));
+    }
+    
     section#login {
         width: 950px;
     }

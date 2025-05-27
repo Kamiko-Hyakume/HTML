@@ -36,11 +36,13 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width .3s, height .3s;
 }
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagem/joyboy.jpeg) no-repeat;
+    background: #5f2c82 url(../imagem/roxo.png) no-repeat;
     background-size: cover;
     background-position: center center;
     height: 200px;
